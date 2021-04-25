@@ -2,11 +2,11 @@ from flask import Flask, request,jsonify
 from flask_cors import CORS,cross_origin
 import mysql.connector
 
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="yourusername",
-  password="yourpassword"
-)
+# mydb = mysql.connector.connect(
+#   host="localhost",
+#   user="yourusername",
+#   password="yourpassword"
+# )
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
