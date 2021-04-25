@@ -1,0 +1,2 @@
+Online Community web-app using technologies like HTML,CSS,JS for front-end. MySQL(Heroku ClearDB) and Flask for back-end. Firebase and Heroku for hosting.
+This project is for subject STQA(Software Testing and Quality Assurance). We will test this project using SoapUI and Selenium frameworks.
