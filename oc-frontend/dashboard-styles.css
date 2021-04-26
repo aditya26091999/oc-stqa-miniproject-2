@@ -1,0 +1,40 @@
+.main{
+    padding-top: 10px;
+    margin: 0 5%;
+}
+
+.btn{
+    width: 20%;
+}
+#new-question{
+    display: relative
+}
+
+#post-button{
+    display: absolute;
+    margin:0 0 0 80%;
+}
+
+.points-system{
+    width: 30%;
+    height:40px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.points-system button{
+    width: 50px !important;
+}
+
+.answer{
+    display: flex;
+    justify-content: space-between;
+    background-color: khaki;
+    padding: 5px;
+}
+
+#question-author{
+    color: red;
+    font-size: small;
+}
